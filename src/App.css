@@ -1,4 +1,8 @@
 .App{
-    background-color: black;
-    height: 100vh
+    background-color: #111;
+    overflow: hidden;
+}
+
+.App::-webkit-scrollbar{
+    overflow: hidden;
 }
