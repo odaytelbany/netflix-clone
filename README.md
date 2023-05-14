@@ -18,3 +18,5 @@ https://netflix-clone-f4400.web.app/
 ### Profile Screen
 ![img5](https://github.com/odaytelbany/netflix-clone/assets/100791118/a2f11dde-dcaf-4a5b-b691-a44a40c3829e)
 
+
+#### By: oday - 14/05/2023
