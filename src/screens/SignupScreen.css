@@ -31,8 +31,54 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 14px;
 }
 
+.signupScreen > form > span{
+    margin-bottom: 14px;
+    font-weight: bold;
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signupScreen > form > span::after{
+    content: "";
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    background: white;
+    top: 60%;
+    left:-45px;
+}
+
+
+.signupScreen > form > span::before{
+    content: "";
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    background: white;
+    top: 60%;
+    right: -45px;
+}
+
+
+.signupScreen_google{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white !important;
+    color: black !important;
+}
+
+.signupScreen_google > img {
+    width:30px;
+    height:30px;
+    padding-right: 10px;
+} 
 .signupScreen_signup{
     margin-top: 8px;
 }

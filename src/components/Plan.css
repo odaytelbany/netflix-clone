@@ -1,0 +1,23 @@
+.Plan{
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 14px;
+}
+
+
+
+.Plan > button{
+    padding: 0 10px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Plan > button.grey{
+    background-color: grey;
+}
