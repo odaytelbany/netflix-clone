@@ -3,6 +3,7 @@ import "./Row.css";
 import axios from "../axios";
 import { useDispatch } from "react-redux";
 import { movie } from "../features/movieSlice";
+// import Loading from "./Loading";
 function Row({ title, fetchURL, isLargeRow }) {
   const [movies, setMovies] = useState([]);
   const [info, setInfo] = useState(null);
@@ -35,7 +36,7 @@ function Row({ title, fetchURL, isLargeRow }) {
       <h2>{title}</h2>
 
       <div className="row_posters">
-        {movies.map((movie) => {
+        {movies.map((movie, i) => {
           // console.log(movie)
           return <>
             <img
@@ -49,7 +50,7 @@ function Row({ title, fetchURL, isLargeRow }) {
             className={`row_poster ${isLargeRow && "row_posterLarge"}`}
             />
           </>
-})}
+        })}
       </div>
     </div>
   );
