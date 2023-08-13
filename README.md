@@ -1,7 +1,7 @@
 # Netflix clone
 
 ## Your deployment :)
-https://netflix-clone-f4400.web.app/
+https://netflix-clone-fawn-three.vercel.app/
 
 ### Login Screen
 ![img1](https://github.com/odaytelbany/netflix-clone/assets/100791118/8aa9452b-decb-4c74-8e2a-cb3a959fa32e)
